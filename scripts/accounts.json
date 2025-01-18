@@ -1,0 +1,20 @@
+{
+    "accounts": [
+        {
+            "id": "1",
+            "email": "example@example.com",
+            "phone": "1234567890",
+            "username": "user",
+            "password": "password"
+        },
+        {
+            "id": "2",
+            "email": "example@example.com",
+            "phone": "1234567890",
+            "username": "Ben",
+            "password": "Jury"
+        }
+
+    ]
+}
+

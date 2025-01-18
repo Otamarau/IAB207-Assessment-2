@@ -1,0 +1,121 @@
+{
+    "events": [
+        {
+            "id": "1",
+            "title": "MF DOOM | ONE MAD VILLIAN",
+            "artist": "MF DOOM, Mr. Fantaskic",
+            "description": "Just remember all CAPS when you spell the man's name.",
+            "tickets_left": 101,
+            "status": "Open",
+            "location": "Brisbane Showgrounds",
+            "date": "24/06/2004",
+            "genres": "Rap",
+            "comments": 2,
+            "likes": 101,
+            "image": "images/Madvillainy_cover.png"
+        },
+        {
+            "id": "2",
+            "title": "Coachella Music Festival | 2024",
+            "artist": "Various Artists",
+            "description": "One of the biggest music festivals in the world!",
+            "tickets_left": 0,
+            "status": "Sold Out",
+            "location": "Indio, California, USA",
+            "date": "15/04/2024",
+            "genres": "Festival",
+            "comments": 1,
+            "likes": 500,
+            "image": "images/coachella.jpg"
+        },
+        {
+            "id": "3",
+            "title": "Glastonbury Festival | 2024",
+            "artist": "Various Artists",
+            "description": "Iconic music festival held in England.",
+            "tickets_left": 300,
+            "status": "Open",
+            "location": "Glastonbury, England",
+            "date": "26/06/2024",
+            "genres": "Festival",
+            "comments": 0,
+            "likes": 400,
+            "image": "images/Glastonbury.png"
+        },
+        {
+            "id": "4",
+            "title": "Radio Birdman | Live",
+            "artist": "Radio Birdman",
+            "description": "The best known early australian punk band of the late 70s is performing live",
+            "tickets_left": 700,
+            "status": "Open",
+            "location": "Melbourne",
+            "date": "17/03/2026",
+            "genres": "Punk Rock",
+            "comments": 0,
+            "likes": 400,
+            "image": "images/radio_birdman.jpg"
+        }
+    ],
+    "bookings": [
+        {   
+            "bookingId": 1,
+            "username": "user",
+            "eventId": "1",
+            "ticketsBooked": 2,
+            "dateBooked": "17/03/2004"
+
+        },
+        {
+            "bookingId": 2,
+            "dateBooked": "17/03/2004",
+            "username": "user",
+            "eventId": "2",
+            "ticketsBooked": 1
+        },
+        {
+            "bookingId": 3,
+            "dateBooked": "17/03/2004",
+            "username": "Ben",
+            "eventId": "4",
+            "ticketsBooked": 4
+        }
+
+    ],
+    "uploaded": [
+        {
+            "username": "user",
+            "eventId": "1"
+        },
+        {
+            "username": "user",
+            "eventId": "2"
+        },
+        {
+            "username": "user",
+            "eventId": "3"
+        },
+        {
+            "username": "Ben",
+            "eventId": "4"
+        }
+    ],
+    "comments": [
+        {
+            "username": "Ben",
+            "eventId": "1",
+            "comment": "I love this event"
+        },
+        {
+            "username": "user",
+            "eventId": "1",
+            "comment": "Soooo excited"
+        },
+        {
+            "username": "ben",
+            "eventId": "2",
+            "comment": "Coachella bby!!!"
+        }
+    ]
+
+}
